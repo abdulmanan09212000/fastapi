@@ -1,0 +1,35 @@
+[[source]]
+verify_ssl = true
+url = "https://pypi.org/simple"
+name = "pypi"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
+
+[packages]
+cryptography = "~=36.0.2"
+"boto3" = "~=1.21.32"
+psycopg2 = "<2.9"
+waitress = "~=2.1.1"
+whitenoise = "~=6.0.0"
+pytest = "==7.1.1"
+fastapi-sqlalchemy = "*"
+alembic = "*"
+uvicorn = "*"
+python-dotenv = "*"
+bcrypt = "==3.2.0"
+python-jose = {extras = ["cryptography"], version = "*"}
+python-multipart = "*"
+fastapi = {extras = ["all"], version = "*"}
+pyjwt = "*"
+passlib = {extras = ["bcrypt"], version = "*"}
+fastapi-mail = "*"
+sendgrid = "*"
+beautifulsoup4 = "*"
+requests = "*"
+pandas = "*"
+selenium = "==4.0.0"
+install = "*"
+scrapy = "*"
