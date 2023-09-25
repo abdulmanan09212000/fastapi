@@ -1,0 +1,8 @@
+.env
+Pipfile.lock
+football_scores.csv
+Football_data.csv
+Spain_Football_data.csv
+btts_detail.csv
+quotes.jsonl
+Score.csv
